@@ -72,11 +72,11 @@ p{
 
 /* ***************** Hero Image ***************** */
 .hero-image{
-    background-image: var(--image);
+    background-image: var(--hero-image);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: var(--attachment);
+    background-attachment: var(--hero-attachment);
 }
 .hero-image-opacity{
     width: 100%;
@@ -85,7 +85,11 @@ p{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: var(--opacity-color);
+    background-color: var(--hero-opacity-color);
+}
+.hero-image-title{
+    font-size: 7.5vw;
+    color: var(--hero-text-color);
 }
 /* ***************** Menu ***************** */
 .menu-btn{
