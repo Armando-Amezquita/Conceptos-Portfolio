@@ -240,7 +240,57 @@
             </article>
         </section>
         <section id="contacto" class="contact">
-            <h2>Contacto</h2>
+            <div class="container">
+                <article class="contact-cards">
+                    <h2 class="section-title">@Interesado?</h2>
+                    <aside class="contact-card box-shadow-1">
+                        <a href="">Icono</a>
+                        <h5>TELEFONO</h5>
+                        <small><a href="tel:3227550701">(+57) 3227550701</a></small>
+                    </aside>
+                    <aside class="contact-card box-shadow-1">
+                        <a href="">Icono</a>
+                        <h5>UBICACION</h5>
+                        <small><i>Colombia</i> Bogotá</small>
+                    </aside>
+                    <aside class="contact-card box-shadow-1">
+                        <a href="">Icono</a>
+                        <h5>EMAIL</h5>
+                        <small><a href="mailto:a.amezquita.1009@gmail.com">a.amezquita.1009@gmail.com</a></small>
+                    </aside>
+                    <aside class="contact-card box-shadow-1">
+                        <a href="">Icono</a>
+                        <h5>REDES SOCIALES</h5>
+                        <small><a href="https://github.com/Armando-Amezquita">
+                            <!-- Falta añadir el svg -->
+                            Github
+                        </a></small>
+                    </aside>
+                </article>
+                <form class="contact-form">
+                    <input type="text" name="name" placeholder="Ingresa tu nombre" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                    <input type="text" name="email" placeholder="Ingresa tu correo" title="Email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                    <textarea name="comments" id="" cols="50" rows="10" placeholder="Dejame tus comentarios" required></textarea>
+                    <div class="contact-form-loader">
+                        <img src="" alt=""> <!-- Falta el icono del loader -->
+                    </div>
+                    <input class="btn" type="submit" value="Enviar mensaje">
+                </form>
+                <article id="gracias" class="modal">
+                    <div class="modal-content">
+                        <article class="contact-form-response">
+                            <h3>
+                                Muchas gracias
+                                <br>
+                                por tus comentarios
+                            </h3>
+                            <p>
+                                :)
+                            </p>
+                        </article>
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
     <footer class="footer">
